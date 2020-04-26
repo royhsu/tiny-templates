@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.SwiftUIStarter</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaTouchApplicationBase</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:UIApplicationSceneManifest</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Info.plist:UIApplicationSceneManifest</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+            &lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
+                &lt;false/&gt;
+                &lt;key&gt;UISceneConfigurations&lt;/key&gt;
+                &lt;dict&gt;
+                    &lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
+                    &lt;array&gt;
+                        &lt;dict&gt;
+                            &lt;key&gt;UISceneConfigurationName&lt;/key&gt;
+                            &lt;string&gt;Default Configuration&lt;/string&gt;
+                            &lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
+                            &lt;string&gt;___VARIABLE_moduleNamePrefixForClasses:XML___SceneDelegate&lt;/string&gt;
+</string>
+			<key>End</key>
+			<string>
+                        &lt;/dict&gt;
+                    &lt;/array&gt;
+                &lt;/dict&gt;
+            &lt;/dict&gt;
+</string>
+			<key>Indent</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses SwiftUI.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>NameOfInitialFileForEditor</key>
+	<string>ContentView.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<array>
+					<dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>userInterface</key>
+							<string>SwiftUI</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>ContentView.swift</string>
+							<string>AppDelegate.swift</string>
+							<string>SceneDelegate.swift</string>
+							<string>Preview Content/Preview Assets.xcassets</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.swift</key>
+							<dict>
+								<key>SortOrder</key>
+								<integer>97</integer>
+								<key>Path</key>
+								<string>AppDelegate.swift</string>
+							</dict>
+							<key>SceneDelegate.swift</key>
+							<dict>
+								<key>SortOrder</key>
+								<integer>98</integer>
+								<key>Path</key>
+								<string>SceneDelegate.swift</string>
+							</dict>
+							<key>ContentView.swift</key>
+							<dict>
+								<key>SortOrder</key>
+								<integer>99</integer>
+								<key>Path</key>
+								<string>ContentView.swift</string>
+							</dict>
+							<key>Preview Content/Preview Assets.xcassets</key>
+							<dict>
+								<key>SortOrder</key>
+								<integer>100</integer>
+								<key>Path</key>
+								<string>Preview Assets.xcassets</string>
+								<key>Group</key>
+								<string>Preview Content</string>
+							</dict>
+							<key>*:imports:importSwiftUI</key>
+							<string>import SwiftUI</string>
+						</dict>
+						<key>Targets</key>
+						<array>
+							<dict>
+								<key>SharedSettings</key>
+								<dict>
+									<key>ENABLE_PREVIEWS</key>
+									<string>YES</string>
+									<key>DEVELOPMENT_ASSET_PATHS</key>
+									<string>___PACKAGENAMEPREVIEWCONTENT:quoteIfNeeded___</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
